@@ -15,6 +15,7 @@
 		1C981BAD28B7E1F200B8841E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C981BAB28B7E1F200B8841E /* LaunchScreen.storyboard */; };
 		1C981BB528B7E3C500B8841E /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C981BB428B7E3C500B8841E /* NewsViewController.swift */; };
 		1C981BB728B7E51300B8841E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C981BB628B7E51300B8841E /* Post.swift */; };
+		1C981BB928B7EFD600B8841E /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C981BB828B7EFD600B8841E /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1C981BAE28B7E1F200B8841E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C981BB428B7E3C500B8841E /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		1C981BB628B7E51300B8841E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1C981BB828B7EFD600B8841E /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		1C981B9F28B7E1ED00B8841E /* NewsAppForOtus */ = {
 			isa = PBXGroup;
 			children = (
+				1C981BBA28BBBFAA00B8841E /* Model */,
 				1C981BA028B7E1ED00B8841E /* AppDelegate.swift */,
 				1C981BA228B7E1ED00B8841E /* SceneDelegate.swift */,
 				1C981BA428B7E1ED00B8841E /* ViewController.swift */,
@@ -68,9 +71,17 @@
 				1C981BAB28B7E1F200B8841E /* LaunchScreen.storyboard */,
 				1C981BAE28B7E1F200B8841E /* Info.plist */,
 				1C981BB428B7E3C500B8841E /* NewsViewController.swift */,
-				1C981BB628B7E51300B8841E /* Post.swift */,
+				1C981BB828B7EFD600B8841E /* TableCell.swift */,
 			);
 			path = NewsAppForOtus;
+			sourceTree = "<group>";
+		};
+		1C981BBA28BBBFAA00B8841E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C981BB628B7E51300B8841E /* Post.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C981BB928B7EFD600B8841E /* TableCell.swift in Sources */,
 				1C981BA528B7E1ED00B8841E /* ViewController.swift in Sources */,
 				1C981BA128B7E1ED00B8841E /* AppDelegate.swift in Sources */,
 				1C981BA328B7E1ED00B8841E /* SceneDelegate.swift in Sources */,
